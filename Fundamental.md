@@ -40,5 +40,22 @@ The browser generates an in-memory DOM tree from the parsed HTML, generates an i
 As the browser builds the DOM tree and applies the styles from the CSSOM tree and executes the JavaScript, a visual representation of the page is painted to the screen, and the user sees the page content and can begin to interact with it.
 ## Git
 - Git is a technology used in the command line while GitHub is a website you can visit.
-
+- Comment line:`
+  - `git config --global user.name "Your Name"`
+  - `git config --global user.email "yourname@example.com"`
+  - `git config --global init.defaultBranch main`
+  - `git config --get user.name`
+  - `git config --get user.email`
+  -  MacOS Users: Run these two commands to tell git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder.
+    - `echo .DS_Store >> ~/.gitignore_global`
+    - `git config --global core.excludesfile ~/.gitignore_global`
+  - Check if you have an Ed25519 algorithm SSH key already installed. `ls ~/.ssh/id_ed25519.pub`; create a ssh :`ssh-keygen -t ed25519 -C youremail`
+  - Link Your SSH Key with GitHub :**github** - **setting** - **SSH and GPG kys** - **New SSH Key**. Terminal `cat ~/.ssh/id_ed25519.pub`,copy the output and paste into the key field of SSH page, then click **Add SSH key**.
+  - Link Github with terminal or VSCode :Create a repository and click **Code** ,then copy the SSH line. Terminal: `mkdir newRepoName`,then `git clone `followed by the SSH line. Then the whole repositary of this SSH line in Github will be downloaded in the newRepoName folder.
+    - `touch hello_world.txt.`
+    - `git status`
+    - `git add hello_world.txt`
+    - `git commit -m "Add hello_world.txt`
+    - `git log`
+    - `git push` or `git push origin main`
 
