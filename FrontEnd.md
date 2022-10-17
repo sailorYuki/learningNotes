@@ -9,7 +9,7 @@
 - HTML and CSS are two languages that work together to create everything that people see  on the internet. 
 - HTML is the raw data that a webpage is built out of. All the text, links, cards, lists, and buttons are created in HTML. 
 - HTML is a markup language used to format/structure a web page.
-- `<!DOCTYPE html> <html lang="en"> <head><meta charset="utf-8"></head>  <body></body> </html>`
+- `<!DOCTYPE html> <html lang="en"> <head><meta charset="utf-8"> <link </head>  <body></body> </html>`
 - Divs and Spans :
   - Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to divide the page into different blocks and apply styling to those blocks.
   - Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate.
