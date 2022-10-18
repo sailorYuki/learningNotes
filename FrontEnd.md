@@ -27,5 +27,7 @@
   - `Flex-Shrink` is similar to `flex-grow`, but sets the “shrink factor” of a flex item. `flex-shrink` only ends up being applied if the size of all flex items is larger than their parent container. For example, if our 3 divs had a width declaration like: `width: 100px`, and `.flex-container` was smaller than 300px, our divs would have to shrink to fit. The default shrink factor is `flex-shrink: 1`, which means all items will shrink evenly. If you do not want an item to shrink then you can specify flex-shrink: 0;. You can also specify higher numbers to make certain items shrink at a higher rate than normal.
   - An important implication to notice is that when you specify `flex-grow` or `flex-shrink`, flex items do not necessarily respect your given values for width. 
   - `Flex-basis` simply sets the initial size of a flex item, so any sort of `flex-grow` or `flex-shrink` starts from that baseline size. The shorthand value defaults to `flex-basis: 0%`. The reason we had to change it to auto  is that with the basis set to 0, those items would ignore the item’s width, and everything would shrink evenly. Using auto as a flex-basis tells the item to check for a width declaration.
+  - [class uses of flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 ##  JavaScript
 - A programming language because it’s used to make webpages do things. 
+- 
