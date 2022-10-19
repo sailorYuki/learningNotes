@@ -30,4 +30,6 @@
   - [class uses of flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 ##  JavaScript
 - A programming language because it’s used to make webpages do things. 
-- 
+- Two ways to add JS into html files(both in the body):`<script> console.log("hello,world")<script>` or `<script src=javascript.js"> <script> `.
+- `let` is a modern variable declaration.
+- Variables declared using `const` are called “constants”. They cannot be reassigned.
