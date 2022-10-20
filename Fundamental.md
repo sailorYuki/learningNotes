@@ -7,6 +7,8 @@
 - Linux: open-source OS, free and there are many different distributions/versions.
 - Closed source sofware = proprietary sofware: the public is not given access to the source code, stable, focused product, often costs money.
 - Open source sofware:publicly available to anyone who wants it, usually free ,public collaboration may fix bugs, add features and improve performance with a relatively short amout of time. It may not be user friendly as closed source software.
+
+
 ## Internet and Web
 - Two computers communicate by cable or Wi-Fi and bluetooth. But if computers connect each other directly, it needs los of cables. 
 - Computers send messages to a router first.This router  makes sure that a message sent from a given computer arrives at the right destination computer. Once we add a router to the system, our network of 10 computers only requires 10 cables: a single plug for each computer and a router with 10 plugs.
@@ -38,6 +40,8 @@
   - As the browser parses the HTML, it sends requests back to the server for any CSS files it has found from <link> elements, and any JavaScript files it has found from <script> elements, and from those, then parses the CSS and JavaScript.
 The browser generates an in-memory DOM tree from the parsed HTML, generates an in-memory CSSOM structure from the parsed CSS, and compiles and executes the parsed JavaScript.
 As the browser builds the DOM tree and applies the styles from the CSSOM tree and executes the JavaScript, a visual representation of the page is painted to the screen, and the user sees the page content and can begin to interact with it.
+  
+  
 ## Git
 - Git is a technology used in the command line while GitHub is a website you can visit.
 - Comment line:`
