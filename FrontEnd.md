@@ -28,8 +28,11 @@
   - An important implication to notice is that when you specify `flex-grow` or `flex-shrink`, flex items do not necessarily respect your given values for width. 
   - `Flex-basis` simply sets the initial size of a flex item, so any sort of `flex-grow` or `flex-shrink` starts from that baseline size. The shorthand value defaults to `flex-basis: 0%`. The reason we had to change it to auto  is that with the basis set to 0, those items would ignore the item’s width, and everything would shrink evenly. Using auto as a flex-basis tells the item to check for a width declaration.
   - [class uses of flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  
+  
 ##  JavaScript
 - A programming language because it’s used to make webpages do things. 
 - Two ways to add JS into html files(both in the body):`<script> console.log("hello,world")<script>` or `<script src=javascript.js"> <script> `.
 - `let` is a modern variable declaration.
 - Variables declared using `const` are called “constants”. They cannot be reassigned.
+- Here I will type something about JavaScript.
