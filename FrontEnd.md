@@ -40,5 +40,20 @@
    ` const name = "Chris";
      const greeting = `Hello, ${name}`;
      console.log(greeting); // "Hello, Chris"`
+ - Equals: `a == b`, the double equality sign `==` means the equality test, while a single one `a = b `means an assignment.
+ -  JavaScript uses Unicode to compare letters.
+ - Comparisons :
+   - A strict equality operator` ===` checks the equality without type conversion.(null === undefined is false)
+   - For non-strick check : null == undefined is true.
+   - For maths and other comparisons < > <= >= : null becomes 0, while undefined becomes NaN.
+      - null > 0 is false;null == 0 is false; null >= 0 is true : the equality check == for undefined and null is defined such that, without any conversions, they equal each other and don’t equal anything else.
+      - The value undefined shouldn’t be compared to other values.  NaN is a special numeric value which returns false for all comparisons.
+and undefined only equals null, no other value.
+  - Be careful when using comparisons like > or < with variables that can occasionally be null/undefined. Checking for null/undefined separately is a good idea.
+
+
+
+
+
 
 
