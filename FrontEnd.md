@@ -35,4 +35,4 @@
 - Two ways to add JS into html files(both in the body):`<script> console.log("hello,world")<script>` or `<script src=javascript.js"> <script> `.
 - `let` is a modern variable declaration.
 - Variables declared using `const` are called “constants”. They cannot be reassigned.
-- Here I will type something about JavaScript.
+- 
