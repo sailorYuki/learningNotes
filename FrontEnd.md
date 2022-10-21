@@ -35,4 +35,10 @@
 - Two ways to add JS into html files(both in the body):`<script> console.log("hello,world")<script>` or `<script src=javascript.js"> <script> `.
 - `let` is a modern variable declaration.
 - Variables declared using `const` are called “constants”. They cannot be reassigned.
-- 
+- Single quotes or double quotes to wrap strings both are okay.But including the same quote mark inside the string is an error,we can do this by putting a backflash just before the character like `const string1 = "I\`ve done this"`.
+- Template literal: `const greeting = `Hello`;`(here are backtick characters, instead of quotes).This include variables in it, wrapped inside ${ } characters, and the variable's value will be inserted into the result:
+   ` const name = "Chris";
+     const greeting = `Hello, ${name}`;
+     console.log(greeting); // "Hello, Chris"`
+
+
