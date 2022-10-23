@@ -50,7 +50,7 @@
       - The value undefined shouldn’t be compared to other values.  NaN is a special numeric value which returns false for all comparisons.
 and undefined only equals null, no other value.
   - Be careful when using comparisons like > or < with variables that can occasionally be null/undefined. Checking for null/undefined separately is a good idea.
-
+- I will write more things about JS here
 
 
 
